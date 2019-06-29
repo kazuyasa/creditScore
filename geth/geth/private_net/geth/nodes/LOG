@@ -1,0 +1,112 @@
+=============== Jun 29, 2019 (UTC) ===============
+17:18:22.770299 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:18:22.781894 db@open opening
+17:18:22.785060 version@stat F·[] S·0B[] Sc·[]
+17:18:22.788450 db@janitor F·2 G·0
+17:18:22.788827 db@open done T·6.5594ms
+17:21:35.756990 db@close closing
+17:21:35.758406 db@close done T·1.4001ms
+=============== Jun 29, 2019 (UTC) ===============
+17:24:51.350818 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:24:51.358352 version@stat F·[] S·0B[] Sc·[]
+17:24:51.359246 db@open opening
+17:24:51.361250 journal@recovery F·1
+17:24:51.362393 journal@recovery recovering @1
+17:24:51.370762 memdb@flush created L0@2 N·2 S·176B "loc..seq,v2":"version,v1"
+17:24:51.372535 version@stat F·[1] S·176B[176B] Sc·[0.25]
+17:24:51.389668 db@janitor F·3 G·0
+17:24:51.390134 db@open done T·30.4633ms
+=============== Jun 29, 2019 (UTC) ===============
+17:26:05.849124 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:26:05.857818 version@stat F·[1] S·176B[176B] Sc·[0.25]
+17:26:05.858497 db@open opening
+17:26:05.860237 journal@recovery F·1
+17:26:05.860841 journal@recovery recovering @3
+17:26:05.866404 memdb@flush created L0@5 N·1 S·159B "loc..seq,v4":"loc..seq,v4"
+17:26:05.868214 version@stat F·[2] S·335B[335B] Sc·[0.50]
+17:26:05.884081 db@janitor F·4 G·0
+17:26:05.884404 db@open done T·25.5725ms
+17:27:28.283642 db@close closing
+17:27:28.286056 db@close done T·2.4017ms
+=============== Jun 29, 2019 (UTC) ===============
+17:31:06.429435 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:31:06.439264 version@stat F·[2] S·335B[335B] Sc·[0.50]
+17:31:06.440325 db@open opening
+17:31:06.443168 journal@recovery F·1
+17:31:06.444439 journal@recovery recovering @6
+17:31:06.451008 memdb@flush created L0@8 N·1 S·159B "loc..seq,v6":"loc..seq,v6"
+17:31:06.454163 version@stat F·[3] S·494B[494B] Sc·[0.75]
+17:31:06.474363 db@janitor F·5 G·0
+17:31:06.474899 db@open done T·34.0738ms
+17:32:22.893390 db@close closing
+17:32:22.895278 db@close done T·1.8797ms
+=============== Jun 29, 2019 (UTC) ===============
+17:32:35.110199 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:32:35.120924 version@stat F·[3] S·494B[494B] Sc·[0.75]
+17:32:35.121972 db@open opening
+17:32:35.124752 journal@recovery F·1
+17:32:35.125671 journal@recovery recovering @9
+17:32:35.137579 memdb@flush created L0@11 N·1 S·159B "loc..seq,v8":"loc..seq,v8"
+17:32:35.139320 version@stat F·[4] S·653B[653B] Sc·[1.00]
+17:32:35.172245 db@janitor F·6 G·0
+17:32:35.172725 db@open done T·50.1818ms
+17:32:35.400840 table@compaction L0·4 -> L1·0 S·653B Q·9
+17:32:35.407053 table@build created L1@14 N·2 S·176B "loc..seq,v8":"version,v1"
+17:32:35.407721 version@stat F·[0 1] S·176B[0B 176B] Sc·[0.00 0.00]
+17:32:35.441210 table@compaction committed F-3 S-477B Ke·0 D·3 T·39.7785ms
+17:32:35.444362 table@remove removed @8
+17:32:35.446636 table@remove removed @5
+17:32:35.448886 table@remove removed @2
+17:33:48.719307 db@close closing
+17:33:48.721066 db@close done T·1.7475ms
+=============== Jun 29, 2019 (UTC) ===============
+17:41:43.647053 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:41:43.655610 version@stat F·[0 1] S·176B[0B 176B] Sc·[0.00 0.00]
+17:41:43.656314 db@open opening
+17:41:43.658010 journal@recovery F·1
+17:41:43.659176 journal@recovery recovering @12
+17:41:43.665538 memdb@flush created L0@15 N·1 S·159B "loc..seq,v10":"loc..seq,v10"
+17:41:43.667534 version@stat F·[1 1] S·335B[159B 176B] Sc·[0.25 0.00]
+17:41:43.688954 db@janitor F·5 G·1
+17:41:43.689413 db@janitor removing table-11
+17:41:43.691233 db@open done T·34.361ms
+=============== Jun 29, 2019 (UTC) ===============
+17:42:22.073194 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:42:22.080951 version@stat F·[1 1] S·335B[159B 176B] Sc·[0.25 0.00]
+17:42:22.081865 db@open opening
+17:42:22.083376 journal@recovery F·1
+17:42:22.084005 journal@recovery recovering @16
+17:42:22.088950 memdb@flush created L0@18 N·1 S·159B "loc..seq,v12":"loc..seq,v12"
+17:42:22.090801 version@stat F·[2 1] S·494B[318B 176B] Sc·[0.50 0.00]
+17:42:22.107821 db@janitor F·5 G·0
+17:42:22.108966 db@open done T·26.7629ms
+=============== Jun 29, 2019 (UTC) ===============
+17:43:05.286246 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:43:05.293128 version@stat F·[2 1] S·494B[318B 176B] Sc·[0.50 0.00]
+17:43:05.293856 db@open opening
+17:43:05.296497 journal@recovery F·1
+17:43:05.300582 journal@recovery recovering @19
+17:43:05.307745 memdb@flush created L0@21 N·1 S·159B "loc..seq,v14":"loc..seq,v14"
+17:43:05.312126 version@stat F·[3 1] S·653B[477B 176B] Sc·[0.75 0.00]
+17:43:05.329301 db@janitor F·6 G·0
+17:43:05.329775 db@open done T·35.2389ms
+=============== Jun 29, 2019 (UTC) ===============
+17:43:09.163837 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:43:09.174053 version@stat F·[3 1] S·653B[477B 176B] Sc·[0.75 0.00]
+17:43:09.174891 db@open opening
+17:43:09.177182 journal@recovery F·1
+17:43:09.177983 journal@recovery recovering @22
+17:43:09.184467 memdb@flush created L0@24 N·1 S·159B "loc..seq,v16":"loc..seq,v16"
+17:43:09.186907 version@stat F·[4 1] S·812B[636B 176B] Sc·[1.00 0.00]
+17:43:09.206135 db@janitor F·7 G·0
+17:43:09.206663 db@open done T·31.3471ms
+17:43:09.458838 table@compaction L0·4 -> L1·1 S·812B Q·17
+17:43:09.465696 table@build created L1@27 N·2 S·176B "loc..seq,v16":"version,v1"
+17:43:09.466462 version@stat F·[0 1] S·176B[0B 176B] Sc·[0.00 0.00]
+17:43:09.490171 table@compaction committed F-4 S-636B Ke·0 D·4 T·30.7168ms
+17:43:09.495336 table@remove removed @21
+17:43:09.497386 table@remove removed @18
+17:43:09.499650 table@remove removed @15
+17:43:09.501431 table@remove removed @14
+17:47:29.988194 db@close closing
+17:47:29.990568 db@close done T·2.3672ms

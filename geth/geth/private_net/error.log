@@ -1,0 +1,314 @@
+flag provided but not defined: -targetgaslimit20000000
+WARN [06-29|17:18:22.196] Sanitizing cache to Go's GC limits       provided=1024 updated=666
+INFO [06-29|17:18:22.201] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [06-29|17:18:22.202] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+ERROR[06-29|17:18:22.206] Failed to enumerate USB devices          hub=ledger vendor=11415 failcount=1 err="failed to initialize libusb: libusb: unknown error [code -99]"
+ERROR[06-29|17:18:22.207] Failed to enumerate USB devices          hub=trezor vendor=21324 failcount=1 err="failed to initialize libusb: libusb: unknown error [code -99]"
+ERROR[06-29|17:18:22.208] Failed to enumerate USB devices          hub=trezor vendor=4617  failcount=1 err="failed to initialize libusb: libusb: unknown error [code -99]"
+ERROR[06-29|17:18:22.208] Failed to enumerate USB devices          hub=ledger vendor=11415 failcount=2 err="failed to initialize libusb: libusb: unknown error [code -99]"
+ERROR[06-29|17:18:22.209] Failed to enumerate USB devices          hub=trezor vendor=21324 failcount=2 err="failed to initialize libusb: libusb: unknown error [code -99]"
+ERROR[06-29|17:18:22.209] Failed to enumerate USB devices          hub=trezor vendor=4617  failcount=2 err="failed to initialize libusb: libusb: unknown error [code -99]"
+INFO [06-29|17:18:22.216] Starting peer-to-peer node               instance=Geth/v1.9.0-unstable-f7cdea2b-20190628/linux-amd64/go1.12.6
+INFO [06-29|17:18:22.216] Allocated trie memory caches             clean=166.00MiB dirty=166.00MiB
+INFO [06-29|17:18:22.217] Allocated cache and file handles         database=/share/geth/private_net/geth/chaindata cache=333.00MiB handles=524288
+INFO [06-29|17:18:22.277] Opened ancient database                  database=/share/geth/private_net/geth/chaindata/ancient
+INFO [06-29|17:18:22.277] Writing default main-net genesis block 
+INFO [06-29|17:18:22.685] Persisted trie from memory database      nodes=12356 size=1.79MiB time=127.4151ms gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [06-29|17:18:22.690] Initialised chain configuration          config="{ChainID: 1 Homestead: 1150000 DAO: 1920000 DAOSupport: true EIP150: 2463000 EIP155: 2675000 EIP158: 2675000 Byzantium: 4370000 Constantinople: 7280000  ConstantinopleFix: 7280000 Engine: ethash}"
+INFO [06-29|17:18:22.690] Disk storage enabled for ethash caches   dir=/share/geth/private_net/geth/ethash count=3
+INFO [06-29|17:18:22.691] Disk storage enabled for ethash DAGs     dir=/root/.ethash                       count=2
+INFO [06-29|17:18:22.691] Initialising Ethereum protocol           versions="[63 62]" network=10 dbversion=<nil>
+WARN [06-29|17:18:22.691] Upgrade blockchain database version      from=<nil> to=7
+INFO [06-29|17:18:22.742] Loaded most recent local header          number=0 hash=d4e567…cb8fa3 td=17179869184 age=50y2mo2w
+INFO [06-29|17:18:22.742] Loaded most recent local full block      number=0 hash=d4e567…cb8fa3 td=17179869184 age=50y2mo2w
+INFO [06-29|17:18:22.743] Loaded most recent local fast block      number=0 hash=d4e567…cb8fa3 td=17179869184 age=50y2mo2w
+INFO [06-29|17:18:22.748] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [06-29|17:18:22.760] Allocated fast sync bloom                size=332.00MiB
+INFO [06-29|17:18:22.797] New local node record                    seq=1 id=b9cc38d844f3c898 ip=127.0.0.1 udp=0 tcp=30303
+INFO [06-29|17:18:22.797] Started P2P networking                   self="enode://2c630c6c45fca0662b449cdd731a72259d56596c950434c471d6df49616c00113a3b8afed2fbf5789e4b31dc4a74c4d635630795bbb0cb28d0a0f3a74b9eff45@127.0.0.1:30303?discport=0"
+INFO [06-29|17:18:22.799] IPC endpoint opened                      url=/share/geth/private_net/geth.ipc
+INFO [06-29|17:18:22.803] HTTP endpoint opened                     url=http://localhost:8545            cors=* vhosts=localhost
+WARN [06-29|17:18:23.017] Served eth_coinbase                      reqid=3 t=61.2µs err="etherbase must be explicitly specified"
+ERROR[06-29|17:18:23.225] Failed to enumerate USB devices          hub=trezor vendor=4617  failcount=3 err="failed to initialize libusb: libusb: unknown error [code -99]"
+ERROR[06-29|17:18:23.225] Failed to enumerate USB devices          hub=ledger vendor=11415 failcount=3 err="failed to initialize libusb: libusb: unknown error [code -99]"
+ERROR[06-29|17:18:23.226] Failed to enumerate USB devices          hub=trezor vendor=21324 failcount=3 err="failed to initialize libusb: libusb: unknown error [code -99]"
+INFO [06-29|17:18:23.229] Initialized fast sync bloom              items=12356 errorrate=0.000 elapsed=468.327ms
+INFO [06-29|17:18:51.996] Your new key was generated               address=0x59281691d27E1d422f73e575E7dBa20c91Ee856b
+WARN [06-29|17:18:51.996] Please backup your key file!             path=/share/geth/private_net/keystore/UTC--2019-06-29T17-18-49.795853900Z--59281691d27e1d422f73e575e7dba20c91ee856b
+WARN [06-29|17:18:51.997] Please remember your password! 
+INFO [06-29|17:21:35.745] HTTP endpoint closed                     url=http://localhost:8545
+INFO [06-29|17:21:35.746] IPC endpoint closed                      url=/share/geth/private_net/geth.ipc
+INFO [06-29|17:21:35.747] Blockchain manager stopped 
+INFO [06-29|17:21:35.747] Stopping Ethereum protocol 
+INFO [06-29|17:21:35.748] Ethereum protocol stopped 
+INFO [06-29|17:21:35.748] Transaction pool stopped 
+WARN [06-29|17:24:50.949] Sanitizing cache to Go's GC limits       provided=1024 updated=666
+INFO [06-29|17:24:50.951] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [06-29|17:24:50.952] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+ERROR[06-29|17:24:50.959] Failed to enumerate USB devices          hub=ledger vendor=11415 failcount=1 err="failed to initialize libusb: libusb: unknown error [code -99]"
+ERROR[06-29|17:24:50.960] Failed to enumerate USB devices          hub=trezor vendor=21324 failcount=1 err="failed to initialize libusb: libusb: unknown error [code -99]"
+ERROR[06-29|17:24:50.960] Failed to enumerate USB devices          hub=trezor vendor=4617  failcount=1 err="failed to initialize libusb: libusb: unknown error [code -99]"
+ERROR[06-29|17:24:50.961] Failed to enumerate USB devices          hub=ledger vendor=11415 failcount=2 err="failed to initialize libusb: libusb: unknown error [code -99]"
+ERROR[06-29|17:24:50.961] Failed to enumerate USB devices          hub=trezor vendor=21324 failcount=2 err="failed to initialize libusb: libusb: unknown error [code -99]"
+ERROR[06-29|17:24:50.962] Failed to enumerate USB devices          hub=trezor vendor=4617  failcount=2 err="failed to initialize libusb: libusb: unknown error [code -99]"
+INFO [06-29|17:24:50.967] Starting peer-to-peer node               instance=Geth/v1.9.0-unstable-f7cdea2b-20190628/linux-amd64/go1.12.6
+INFO [06-29|17:24:50.968] Allocated trie memory caches             clean=166.00MiB dirty=166.00MiB
+INFO [06-29|17:24:50.968] Allocated cache and file handles         database=/share/geth/private_net/geth/chaindata cache=333.00MiB handles=524288
+INFO [06-29|17:24:51.305] Opened ancient database                  database=/share/geth/private_net/geth/chaindata/ancient
+INFO [06-29|17:24:51.311] Initialised chain configuration          config="{ChainID: 1 Homestead: 1150000 DAO: 1920000 DAOSupport: true EIP150: 2463000 EIP155: 2675000 EIP158: 2675000 Byzantium: 4370000 Constantinople: 7280000  ConstantinopleFix: 7280000 Engine: ethash}"
+INFO [06-29|17:24:51.311] Disk storage enabled for ethash caches   dir=/share/geth/private_net/geth/ethash count=3
+INFO [06-29|17:24:51.312] Disk storage enabled for ethash DAGs     dir=/root/.ethash                       count=2
+INFO [06-29|17:24:51.312] Initialising Ethereum protocol           versions="[63 62]" network=10 dbversion=7
+INFO [06-29|17:24:51.327] Loaded most recent local header          number=0 hash=d4e567…cb8fa3 td=17179869184 age=50y2mo2w
+INFO [06-29|17:24:51.328] Loaded most recent local full block      number=0 hash=d4e567…cb8fa3 td=17179869184 age=50y2mo2w
+INFO [06-29|17:24:51.329] Loaded most recent local fast block      number=0 hash=d4e567…cb8fa3 td=17179869184 age=50y2mo2w
+INFO [06-29|17:24:51.334] Loaded local transaction journal         transactions=0 dropped=0
+INFO [06-29|17:24:51.338] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [06-29|17:24:51.344] Allocated fast sync bloom                size=332.00MiB
+INFO [06-29|17:24:51.399] IPC endpoint opened                      url=/share/geth/private_net/geth.ipc
+INFO [06-29|17:24:51.403] New local node record                    seq=2 id=b9cc38d844f3c898 ip=127.0.0.1 udp=0 tcp=30303
+INFO [06-29|17:24:51.404] Started P2P networking                   self="enode://2c630c6c45fca0662b449cdd731a72259d56596c950434c471d6df49616c00113a3b8afed2fbf5789e4b31dc4a74c4d635630795bbb0cb28d0a0f3a74b9eff45@127.0.0.1:30303?discport=0"
+INFO [06-29|17:24:51.406] HTTP endpoint opened                     url=http://localhost:8545            cors=* vhosts=localhost
+Fatal: Account unlock with HTTP access is forbidden!
+WARN [06-29|17:26:05.727] Sanitizing cache to Go's GC limits       provided=1024 updated=666
+INFO [06-29|17:26:05.730] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [06-29|17:26:05.730] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+ERROR[06-29|17:26:05.737] Failed to enumerate USB devices          hub=ledger vendor=11415 failcount=1 err="failed to initialize libusb: libusb: unknown error [code -99]"
+ERROR[06-29|17:26:05.737] Failed to enumerate USB devices          hub=trezor vendor=21324 failcount=1 err="failed to initialize libusb: libusb: unknown error [code -99]"
+ERROR[06-29|17:26:05.738] Failed to enumerate USB devices          hub=trezor vendor=4617  failcount=1 err="failed to initialize libusb: libusb: unknown error [code -99]"
+ERROR[06-29|17:26:05.738] Failed to enumerate USB devices          hub=ledger vendor=11415 failcount=2 err="failed to initialize libusb: libusb: unknown error [code -99]"
+ERROR[06-29|17:26:05.739] Failed to enumerate USB devices          hub=trezor vendor=21324 failcount=2 err="failed to initialize libusb: libusb: unknown error [code -99]"
+ERROR[06-29|17:26:05.739] Failed to enumerate USB devices          hub=trezor vendor=4617  failcount=2 err="failed to initialize libusb: libusb: unknown error [code -99]"
+INFO [06-29|17:26:05.747] Starting peer-to-peer node               instance=Geth/v1.9.0-unstable-f7cdea2b-20190628/linux-amd64/go1.12.6
+INFO [06-29|17:26:05.747] Allocated trie memory caches             clean=166.00MiB dirty=166.00MiB
+INFO [06-29|17:26:05.748] Allocated cache and file handles         database=/share/geth/private_net/geth/chaindata cache=333.00MiB handles=524288
+INFO [06-29|17:26:05.809] Opened ancient database                  database=/share/geth/private_net/geth/chaindata/ancient
+INFO [06-29|17:26:05.815] Initialised chain configuration          config="{ChainID: 1 Homestead: 1150000 DAO: 1920000 DAOSupport: true EIP150: 2463000 EIP155: 2675000 EIP158: 2675000 Byzantium: 4370000 Constantinople: 7280000  ConstantinopleFix: 7280000 Engine: ethash}"
+INFO [06-29|17:26:05.815] Disk storage enabled for ethash caches   dir=/share/geth/private_net/geth/ethash count=3
+INFO [06-29|17:26:05.815] Disk storage enabled for ethash DAGs     dir=/root/.ethash                       count=2
+INFO [06-29|17:26:05.816] Initialising Ethereum protocol           versions="[63 62]" network=10 dbversion=7
+INFO [06-29|17:26:05.831] Loaded most recent local header          number=0 hash=d4e567…cb8fa3 td=17179869184 age=50y2mo2w
+INFO [06-29|17:26:05.832] Loaded most recent local full block      number=0 hash=d4e567…cb8fa3 td=17179869184 age=50y2mo2w
+INFO [06-29|17:26:05.832] Loaded most recent local fast block      number=0 hash=d4e567…cb8fa3 td=17179869184 age=50y2mo2w
+INFO [06-29|17:26:05.836] Loaded local transaction journal         transactions=0 dropped=0
+INFO [06-29|17:26:05.839] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [06-29|17:26:05.844] Allocated fast sync bloom                size=332.00MiB
+INFO [06-29|17:26:05.898] IPC endpoint opened                      url=/share/geth/private_net/geth.ipc
+INFO [06-29|17:26:05.902] New local node record                    seq=3 id=b9cc38d844f3c898 ip=127.0.0.1 udp=0 tcp=30303
+INFO [06-29|17:26:05.903] Started P2P networking                   self="enode://2c630c6c45fca0662b449cdd731a72259d56596c950434c471d6df49616c00113a3b8afed2fbf5789e4b31dc4a74c4d635630795bbb0cb28d0a0f3a74b9eff45@127.0.0.1:30303?discport=0"
+INFO [06-29|17:26:05.905] HTTP endpoint opened                     url=http://localhost:8545            cors=* vhosts=localhost
+INFO [06-29|17:26:06.126] Etherbase automatically configured       address=0x59281691d27E1d422f73e575E7dBa20c91Ee856b
+INFO [06-29|17:26:06.305] Initialized fast sync bloom              items=12356 errorrate=0.000 elapsed=456.380ms
+ERROR[06-29|17:26:06.756] Failed to enumerate USB devices          hub=trezor vendor=4617  failcount=3 err="failed to initialize libusb: libusb: unknown error [code -99]"
+ERROR[06-29|17:26:06.757] Failed to enumerate USB devices          hub=ledger vendor=11415 failcount=3 err="failed to initialize libusb: libusb: unknown error [code -99]"
+ERROR[06-29|17:26:06.758] Failed to enumerate USB devices          hub=trezor vendor=21324 failcount=3 err="failed to initialize libusb: libusb: unknown error [code -99]"
+INFO [06-29|17:26:22.311] Your new key was generated               address=0x793333b21F50395572a3367781b879dB93be59f8
+WARN [06-29|17:26:22.311] Please backup your key file!             path=/share/geth/private_net/keystore/UTC--2019-06-29T17-26-20.495392200Z--793333b21f50395572a3367781b879db93be59f8
+WARN [06-29|17:26:22.312] Please remember your password! 
+INFO [06-29|17:27:28.268] HTTP endpoint closed                     url=http://localhost:8545
+INFO [06-29|17:27:28.270] IPC endpoint closed                      url=/share/geth/private_net/geth.ipc
+INFO [06-29|17:27:28.271] Blockchain manager stopped 
+INFO [06-29|17:27:28.271] Stopping Ethereum protocol 
+INFO [06-29|17:27:28.272] Ethereum protocol stopped 
+INFO [06-29|17:27:28.273] Transaction pool stopped 
+WARN [06-29|17:31:06.284] Sanitizing cache to Go's GC limits       provided=1024 updated=666
+INFO [06-29|17:31:06.286] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [06-29|17:31:06.287] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+ERROR[06-29|17:31:06.297] Failed to enumerate USB devices          hub=ledger vendor=11415 failcount=1 err="failed to initialize libusb: libusb: unknown error [code -99]"
+ERROR[06-29|17:31:06.297] Failed to enumerate USB devices          hub=trezor vendor=21324 failcount=1 err="failed to initialize libusb: libusb: unknown error [code -99]"
+ERROR[06-29|17:31:06.298] Failed to enumerate USB devices          hub=trezor vendor=4617  failcount=1 err="failed to initialize libusb: libusb: unknown error [code -99]"
+ERROR[06-29|17:31:06.298] Failed to enumerate USB devices          hub=ledger vendor=11415 failcount=2 err="failed to initialize libusb: libusb: unknown error [code -99]"
+ERROR[06-29|17:31:06.299] Failed to enumerate USB devices          hub=trezor vendor=21324 failcount=2 err="failed to initialize libusb: libusb: unknown error [code -99]"
+ERROR[06-29|17:31:06.299] Failed to enumerate USB devices          hub=trezor vendor=4617  failcount=2 err="failed to initialize libusb: libusb: unknown error [code -99]"
+INFO [06-29|17:31:06.305] Starting peer-to-peer node               instance=Geth/v1.9.0-unstable-f7cdea2b-20190628/linux-amd64/go1.12.6
+INFO [06-29|17:31:06.306] Allocated trie memory caches             clean=166.00MiB dirty=166.00MiB
+INFO [06-29|17:31:06.306] Allocated cache and file handles         database=/share/geth/private_net/geth/chaindata cache=333.00MiB handles=524288
+INFO [06-29|17:31:06.383] Opened ancient database                  database=/share/geth/private_net/geth/chaindata/ancient
+INFO [06-29|17:31:06.391] Initialised chain configuration          config="{ChainID: 1 Homestead: 1150000 DAO: 1920000 DAOSupport: true EIP150: 2463000 EIP155: 2675000 EIP158: 2675000 Byzantium: 4370000 Constantinople: 7280000  ConstantinopleFix: 7280000 Engine: ethash}"
+INFO [06-29|17:31:06.391] Disk storage enabled for ethash caches   dir=/share/geth/private_net/geth/ethash count=3
+INFO [06-29|17:31:06.391] Disk storage enabled for ethash DAGs     dir=/root/.ethash                       count=2
+INFO [06-29|17:31:06.392] Initialising Ethereum protocol           versions="[63 62]" network=10 dbversion=7
+INFO [06-29|17:31:06.407] Loaded most recent local header          number=0 hash=d4e567…cb8fa3 td=17179869184 age=50y2mo2w
+INFO [06-29|17:31:06.407] Loaded most recent local full block      number=0 hash=d4e567…cb8fa3 td=17179869184 age=50y2mo2w
+INFO [06-29|17:31:06.408] Loaded most recent local fast block      number=0 hash=d4e567…cb8fa3 td=17179869184 age=50y2mo2w
+INFO [06-29|17:31:06.412] Loaded local transaction journal         transactions=0 dropped=0
+INFO [06-29|17:31:06.415] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [06-29|17:31:06.421] Allocated fast sync bloom                size=332.00MiB
+INFO [06-29|17:31:06.487] IPC endpoint opened                      url=/share/geth/private_net/geth.ipc
+INFO [06-29|17:31:06.492] New local node record                    seq=4 id=b9cc38d844f3c898 ip=127.0.0.1 udp=0 tcp=30303
+INFO [06-29|17:31:06.492] Started P2P networking                   self="enode://2c630c6c45fca0662b449cdd731a72259d56596c950434c471d6df49616c00113a3b8afed2fbf5789e4b31dc4a74c4d635630795bbb0cb28d0a0f3a74b9eff45@127.0.0.1:30303?discport=0"
+INFO [06-29|17:31:06.494] HTTP endpoint opened                     url=http://localhost:8545            cors=* vhosts=localhost
+INFO [06-29|17:31:06.717] Etherbase automatically configured       address=0x59281691d27E1d422f73e575E7dBa20c91Ee856b
+INFO [06-29|17:31:06.915] Initialized fast sync bloom              items=12356 errorrate=0.000 elapsed=490.557ms
+ERROR[06-29|17:31:07.312] Failed to enumerate USB devices          hub=trezor vendor=4617  failcount=3 err="failed to initialize libusb: libusb: unknown error [code -99]"
+ERROR[06-29|17:31:07.313] Failed to enumerate USB devices          hub=ledger vendor=11415 failcount=3 err="failed to initialize libusb: libusb: unknown error [code -99]"
+ERROR[06-29|17:31:07.313] Failed to enumerate USB devices          hub=trezor vendor=21324 failcount=3 err="failed to initialize libusb: libusb: unknown error [code -99]"
+WARN [06-29|17:31:13.969] Served personal_unlockAccount            reqid=10 t=339.9µs err="account unlock with HTTP access is forbidden"
+INFO [06-29|17:32:22.882] HTTP endpoint closed                     url=http://localhost:8545
+INFO [06-29|17:32:22.884] IPC endpoint closed                      url=/share/geth/private_net/geth.ipc
+INFO [06-29|17:32:22.884] Blockchain manager stopped 
+INFO [06-29|17:32:22.885] Stopping Ethereum protocol 
+INFO [06-29|17:32:22.885] Ethereum protocol stopped 
+INFO [06-29|17:32:22.886] Transaction pool stopped 
+WARN [06-29|17:32:34.930] Sanitizing cache to Go's GC limits       provided=1024 updated=666
+INFO [06-29|17:32:34.933] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [06-29|17:32:34.933] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+ERROR[06-29|17:32:34.944] Failed to enumerate USB devices          hub=ledger vendor=11415 failcount=1 err="failed to initialize libusb: libusb: unknown error [code -99]"
+ERROR[06-29|17:32:34.945] Failed to enumerate USB devices          hub=trezor vendor=21324 failcount=1 err="failed to initialize libusb: libusb: unknown error [code -99]"
+ERROR[06-29|17:32:34.945] Failed to enumerate USB devices          hub=trezor vendor=4617  failcount=1 err="failed to initialize libusb: libusb: unknown error [code -99]"
+ERROR[06-29|17:32:34.945] Failed to enumerate USB devices          hub=ledger vendor=11415 failcount=2 err="failed to initialize libusb: libusb: unknown error [code -99]"
+ERROR[06-29|17:32:34.946] Failed to enumerate USB devices          hub=trezor vendor=21324 failcount=2 err="failed to initialize libusb: libusb: unknown error [code -99]"
+ERROR[06-29|17:32:34.947] Failed to enumerate USB devices          hub=trezor vendor=4617  failcount=2 err="failed to initialize libusb: libusb: unknown error [code -99]"
+INFO [06-29|17:32:34.955] Starting peer-to-peer node               instance=Geth/v1.9.0-unstable-f7cdea2b-20190628/linux-amd64/go1.12.6
+INFO [06-29|17:32:34.955] Allocated trie memory caches             clean=166.00MiB dirty=166.00MiB
+INFO [06-29|17:32:34.956] Allocated cache and file handles         database=/share/geth/private_net/geth/chaindata cache=333.00MiB handles=524288
+INFO [06-29|17:32:35.035] Opened ancient database                  database=/share/geth/private_net/geth/chaindata/ancient
+INFO [06-29|17:32:35.040] Initialised chain configuration          config="{ChainID: 1 Homestead: 1150000 DAO: 1920000 DAOSupport: true EIP150: 2463000 EIP155: 2675000 EIP158: 2675000 Byzantium: 4370000 Constantinople: 7280000  ConstantinopleFix: 7280000 Engine: ethash}"
+INFO [06-29|17:32:35.041] Disk storage enabled for ethash caches   dir=/share/geth/private_net/geth/ethash count=3
+INFO [06-29|17:32:35.041] Disk storage enabled for ethash DAGs     dir=/root/.ethash                       count=2
+INFO [06-29|17:32:35.042] Initialising Ethereum protocol           versions="[63 62]" network=10 dbversion=7
+INFO [06-29|17:32:35.066] Loaded most recent local header          number=0 hash=d4e567…cb8fa3 td=17179869184 age=50y2mo2w
+INFO [06-29|17:32:35.066] Loaded most recent local full block      number=0 hash=d4e567…cb8fa3 td=17179869184 age=50y2mo2w
+INFO [06-29|17:32:35.067] Loaded most recent local fast block      number=0 hash=d4e567…cb8fa3 td=17179869184 age=50y2mo2w
+INFO [06-29|17:32:35.072] Loaded local transaction journal         transactions=0 dropped=0
+INFO [06-29|17:32:35.076] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [06-29|17:32:35.082] Allocated fast sync bloom                size=332.00MiB
+INFO [06-29|17:32:35.183] IPC endpoint opened                      url=/share/geth/private_net/geth.ipc
+INFO [06-29|17:32:35.412] New local node record                    seq=5 id=b9cc38d844f3c898 ip=127.0.0.1 udp=0 tcp=30303
+INFO [06-29|17:32:35.413] Started P2P networking                   self="enode://2c630c6c45fca0662b449cdd731a72259d56596c950434c471d6df49616c00113a3b8afed2fbf5789e4b31dc4a74c4d635630795bbb0cb28d0a0f3a74b9eff45@127.0.0.1:30303?discport=0"
+INFO [06-29|17:32:35.442] HTTP endpoint opened                     url=http://localhost:8545            cors=* vhosts=localhost
+INFO [06-29|17:32:35.684] Etherbase automatically configured       address=0x59281691d27E1d422f73e575E7dBa20c91Ee856b
+INFO [06-29|17:32:35.750] Initialized fast sync bloom              items=12356 errorrate=0.000 elapsed=656.105ms
+ERROR[06-29|17:32:35.955] Failed to enumerate USB devices          hub=trezor vendor=21324 failcount=3 err="failed to initialize libusb: libusb: unknown error [code -99]"
+ERROR[06-29|17:32:35.955] Failed to enumerate USB devices          hub=ledger vendor=11415 failcount=3 err="failed to initialize libusb: libusb: unknown error [code -99]"
+ERROR[06-29|17:32:35.955] Failed to enumerate USB devices          hub=trezor vendor=4617  failcount=3 err="failed to initialize libusb: libusb: unknown error [code -99]"
+INFO [06-29|17:33:48.704] HTTP endpoint closed                     url=http://localhost:8545
+INFO [06-29|17:33:48.705] IPC endpoint closed                      url=/share/geth/private_net/geth.ipc
+INFO [06-29|17:33:48.706] Blockchain manager stopped 
+INFO [06-29|17:33:48.706] Stopping Ethereum protocol 
+INFO [06-29|17:33:48.707] Ethereum protocol stopped 
+INFO [06-29|17:33:48.708] Transaction pool stopped 
+sh: RUN: not found
+WARN [06-29|17:41:43.530] Sanitizing cache to Go's GC limits       provided=1024 updated=666
+INFO [06-29|17:41:43.532] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [06-29|17:41:43.533] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+ERROR[06-29|17:41:43.542] Failed to enumerate USB devices          hub=ledger vendor=11415 failcount=1 err="failed to initialize libusb: libusb: unknown error [code -99]"
+ERROR[06-29|17:41:43.543] Failed to enumerate USB devices          hub=trezor vendor=21324 failcount=1 err="failed to initialize libusb: libusb: unknown error [code -99]"
+ERROR[06-29|17:41:43.543] Failed to enumerate USB devices          hub=trezor vendor=4617  failcount=1 err="failed to initialize libusb: libusb: unknown error [code -99]"
+ERROR[06-29|17:41:43.543] Failed to enumerate USB devices          hub=ledger vendor=11415 failcount=2 err="failed to initialize libusb: libusb: unknown error [code -99]"
+ERROR[06-29|17:41:43.544] Failed to enumerate USB devices          hub=trezor vendor=21324 failcount=2 err="failed to initialize libusb: libusb: unknown error [code -99]"
+ERROR[06-29|17:41:43.544] Failed to enumerate USB devices          hub=trezor vendor=4617  failcount=2 err="failed to initialize libusb: libusb: unknown error [code -99]"
+INFO [06-29|17:41:43.549] Starting peer-to-peer node               instance=Geth/v1.9.0-unstable-f7cdea2b-20190628/linux-amd64/go1.12.6
+INFO [06-29|17:41:43.549] Allocated trie memory caches             clean=166.00MiB dirty=166.00MiB
+INFO [06-29|17:41:43.550] Allocated cache and file handles         database=/share/geth/private_net/geth/chaindata cache=333.00MiB handles=524288
+INFO [06-29|17:41:43.607] Opened ancient database                  database=/share/geth/private_net/geth/chaindata/ancient
+INFO [06-29|17:41:43.613] Initialised chain configuration          config="{ChainID: 1 Homestead: 1150000 DAO: 1920000 DAOSupport: true EIP150: 2463000 EIP155: 2675000 EIP158: 2675000 Byzantium: 4370000 Constantinople: 7280000  ConstantinopleFix: 7280000 Engine: ethash}"
+INFO [06-29|17:41:43.613] Disk storage enabled for ethash caches   dir=/share/geth/private_net/geth/ethash count=3
+INFO [06-29|17:41:43.613] Disk storage enabled for ethash DAGs     dir=/root/.ethash                       count=2
+INFO [06-29|17:41:43.614] Initialising Ethereum protocol           versions="[63 62]" network=10 dbversion=7
+INFO [06-29|17:41:43.628] Loaded most recent local header          number=0 hash=d4e567…cb8fa3 td=17179869184 age=50y2mo2w
+INFO [06-29|17:41:43.629] Loaded most recent local full block      number=0 hash=d4e567…cb8fa3 td=17179869184 age=50y2mo2w
+INFO [06-29|17:41:43.629] Loaded most recent local fast block      number=0 hash=d4e567…cb8fa3 td=17179869184 age=50y2mo2w
+INFO [06-29|17:41:43.633] Loaded local transaction journal         transactions=0 dropped=0
+INFO [06-29|17:41:43.636] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [06-29|17:41:43.641] Allocated fast sync bloom                size=332.00MiB
+INFO [06-29|17:41:43.703] IPC endpoint opened                      url=/share/geth/private_net/geth.ipc
+INFO [06-29|17:41:43.708] New local node record                    seq=6 id=b9cc38d844f3c898 ip=127.0.0.1 udp=0 tcp=30303
+INFO [06-29|17:41:43.708] Started P2P networking                   self="enode://2c630c6c45fca0662b449cdd731a72259d56596c950434c471d6df49616c00113a3b8afed2fbf5789e4b31dc4a74c4d635630795bbb0cb28d0a0f3a74b9eff45@127.0.0.1:30303?discport=0"
+INFO [06-29|17:41:43.710] HTTP endpoint opened                     url=http://localhost:8545            cors=* vhosts=localhost
+Fatal: Account unlock with HTTP access is forbidden!
+WARN [06-29|17:42:21.944] Sanitizing cache to Go's GC limits       provided=1024 updated=666
+INFO [06-29|17:42:21.947] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [06-29|17:42:21.948] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+ERROR[06-29|17:42:21.957] Failed to enumerate USB devices          hub=ledger vendor=11415 failcount=1 err="failed to initialize libusb: libusb: unknown error [code -99]"
+ERROR[06-29|17:42:21.957] Failed to enumerate USB devices          hub=trezor vendor=21324 failcount=1 err="failed to initialize libusb: libusb: unknown error [code -99]"
+ERROR[06-29|17:42:21.958] Failed to enumerate USB devices          hub=trezor vendor=4617  failcount=1 err="failed to initialize libusb: libusb: unknown error [code -99]"
+ERROR[06-29|17:42:21.958] Failed to enumerate USB devices          hub=ledger vendor=11415 failcount=2 err="failed to initialize libusb: libusb: unknown error [code -99]"
+ERROR[06-29|17:42:21.958] Failed to enumerate USB devices          hub=trezor vendor=21324 failcount=2 err="failed to initialize libusb: libusb: unknown error [code -99]"
+ERROR[06-29|17:42:21.959] Failed to enumerate USB devices          hub=trezor vendor=4617  failcount=2 err="failed to initialize libusb: libusb: unknown error [code -99]"
+INFO [06-29|17:42:21.964] Starting peer-to-peer node               instance=Geth/v1.9.0-unstable-f7cdea2b-20190628/linux-amd64/go1.12.6
+INFO [06-29|17:42:21.965] Allocated trie memory caches             clean=166.00MiB dirty=166.00MiB
+INFO [06-29|17:42:21.965] Allocated cache and file handles         database=/share/geth/private_net/geth/chaindata cache=333.00MiB handles=524288
+INFO [06-29|17:42:22.032] Opened ancient database                  database=/share/geth/private_net/geth/chaindata/ancient
+INFO [06-29|17:42:22.039] Initialised chain configuration          config="{ChainID: 1 Homestead: 1150000 DAO: 1920000 DAOSupport: true EIP150: 2463000 EIP155: 2675000 EIP158: 2675000 Byzantium: 4370000 Constantinople: 7280000  ConstantinopleFix: 7280000 Engine: ethash}"
+INFO [06-29|17:42:22.039] Disk storage enabled for ethash caches   dir=/share/geth/private_net/geth/ethash count=3
+INFO [06-29|17:42:22.040] Disk storage enabled for ethash DAGs     dir=/root/.ethash                       count=2
+INFO [06-29|17:42:22.040] Initialising Ethereum protocol           versions="[63 62]" network=10 dbversion=7
+INFO [06-29|17:42:22.055] Loaded most recent local header          number=0 hash=d4e567…cb8fa3 td=17179869184 age=50y2mo2w
+INFO [06-29|17:42:22.055] Loaded most recent local full block      number=0 hash=d4e567…cb8fa3 td=17179869184 age=50y2mo2w
+INFO [06-29|17:42:22.056] Loaded most recent local fast block      number=0 hash=d4e567…cb8fa3 td=17179869184 age=50y2mo2w
+INFO [06-29|17:42:22.060] Loaded local transaction journal         transactions=0 dropped=0
+INFO [06-29|17:42:22.063] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [06-29|17:42:22.068] Allocated fast sync bloom                size=332.00MiB
+INFO [06-29|17:42:22.123] IPC endpoint opened                      url=/share/geth/private_net/geth.ipc
+INFO [06-29|17:42:22.127] New local node record                    seq=7 id=b9cc38d844f3c898 ip=127.0.0.1 udp=0 tcp=30303
+INFO [06-29|17:42:22.128] Started P2P networking                   self="enode://2c630c6c45fca0662b449cdd731a72259d56596c950434c471d6df49616c00113a3b8afed2fbf5789e4b31dc4a74c4d635630795bbb0cb28d0a0f3a74b9eff45@127.0.0.1:30303?discport=0"
+INFO [06-29|17:42:22.130] HTTP endpoint opened                     url=http://localhost:8545            cors=* vhosts=localhost
+Fatal: Could not list accounts: invalid account address or index "eth.accounts[0]"
+WARN [06-29|17:43:05.137] Sanitizing cache to Go's GC limits       provided=1024 updated=666
+INFO [06-29|17:43:05.140] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [06-29|17:43:05.140] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+ERROR[06-29|17:43:05.152] Failed to enumerate USB devices          hub=ledger vendor=11415 failcount=1 err="failed to initialize libusb: libusb: unknown error [code -99]"
+ERROR[06-29|17:43:05.152] Failed to enumerate USB devices          hub=trezor vendor=21324 failcount=1 err="failed to initialize libusb: libusb: unknown error [code -99]"
+ERROR[06-29|17:43:05.153] Failed to enumerate USB devices          hub=trezor vendor=4617  failcount=1 err="failed to initialize libusb: libusb: unknown error [code -99]"
+ERROR[06-29|17:43:05.154] Failed to enumerate USB devices          hub=ledger vendor=11415 failcount=2 err="failed to initialize libusb: libusb: unknown error [code -99]"
+ERROR[06-29|17:43:05.154] Failed to enumerate USB devices          hub=trezor vendor=21324 failcount=2 err="failed to initialize libusb: libusb: unknown error [code -99]"
+ERROR[06-29|17:43:05.155] Failed to enumerate USB devices          hub=trezor vendor=4617  failcount=2 err="failed to initialize libusb: libusb: unknown error [code -99]"
+INFO [06-29|17:43:05.163] Starting peer-to-peer node               instance=Geth/v1.9.0-unstable-f7cdea2b-20190628/linux-amd64/go1.12.6
+INFO [06-29|17:43:05.164] Allocated trie memory caches             clean=166.00MiB dirty=166.00MiB
+INFO [06-29|17:43:05.164] Allocated cache and file handles         database=/share/geth/private_net/geth/chaindata cache=333.00MiB handles=524288
+INFO [06-29|17:43:05.232] Opened ancient database                  database=/share/geth/private_net/geth/chaindata/ancient
+INFO [06-29|17:43:05.243] Initialised chain configuration          config="{ChainID: 1 Homestead: 1150000 DAO: 1920000 DAOSupport: true EIP150: 2463000 EIP155: 2675000 EIP158: 2675000 Byzantium: 4370000 Constantinople: 7280000  ConstantinopleFix: 7280000 Engine: ethash}"
+INFO [06-29|17:43:05.244] Disk storage enabled for ethash caches   dir=/share/geth/private_net/geth/ethash count=3
+INFO [06-29|17:43:05.244] Disk storage enabled for ethash DAGs     dir=/root/.ethash                       count=2
+INFO [06-29|17:43:05.245] Initialising Ethereum protocol           versions="[63 62]" network=10 dbversion=7
+INFO [06-29|17:43:05.260] Loaded most recent local header          number=0 hash=d4e567…cb8fa3 td=17179869184 age=50y2mo2w
+INFO [06-29|17:43:05.260] Loaded most recent local full block      number=0 hash=d4e567…cb8fa3 td=17179869184 age=50y2mo2w
+INFO [06-29|17:43:05.261] Loaded most recent local fast block      number=0 hash=d4e567…cb8fa3 td=17179869184 age=50y2mo2w
+INFO [06-29|17:43:05.265] Loaded local transaction journal         transactions=0 dropped=0
+INFO [06-29|17:43:05.268] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [06-29|17:43:05.275] Allocated fast sync bloom                size=332.00MiB
+INFO [06-29|17:43:05.343] IPC endpoint opened                      url=/share/geth/private_net/geth.ipc
+INFO [06-29|17:43:05.347] New local node record                    seq=8 id=b9cc38d844f3c898 ip=127.0.0.1 udp=0 tcp=30303
+INFO [06-29|17:43:05.348] Started P2P networking                   self="enode://2c630c6c45fca0662b449cdd731a72259d56596c950434c471d6df49616c00113a3b8afed2fbf5789e4b31dc4a74c4d635630795bbb0cb28d0a0f3a74b9eff45@127.0.0.1:30303?discport=0"
+INFO [06-29|17:43:05.350] HTTP endpoint opened                     url=http://localhost:8545            cors=* vhosts=localhost
+Fatal: Failed to read password file: read /share/geth: is a directory
+WARN [06-29|17:43:08.976] Sanitizing cache to Go's GC limits       provided=1024 updated=666
+INFO [06-29|17:43:08.978] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [06-29|17:43:08.978] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+ERROR[06-29|17:43:08.987] Failed to enumerate USB devices          hub=ledger vendor=11415 failcount=1 err="failed to initialize libusb: libusb: unknown error [code -99]"
+ERROR[06-29|17:43:08.988] Failed to enumerate USB devices          hub=trezor vendor=21324 failcount=1 err="failed to initialize libusb: libusb: unknown error [code -99]"
+ERROR[06-29|17:43:08.988] Failed to enumerate USB devices          hub=trezor vendor=4617  failcount=1 err="failed to initialize libusb: libusb: unknown error [code -99]"
+ERROR[06-29|17:43:08.989] Failed to enumerate USB devices          hub=ledger vendor=11415 failcount=2 err="failed to initialize libusb: libusb: unknown error [code -99]"
+ERROR[06-29|17:43:08.989] Failed to enumerate USB devices          hub=trezor vendor=21324 failcount=2 err="failed to initialize libusb: libusb: unknown error [code -99]"
+ERROR[06-29|17:43:08.990] Failed to enumerate USB devices          hub=trezor vendor=4617  failcount=2 err="failed to initialize libusb: libusb: unknown error [code -99]"
+INFO [06-29|17:43:08.996] Starting peer-to-peer node               instance=Geth/v1.9.0-unstable-f7cdea2b-20190628/linux-amd64/go1.12.6
+INFO [06-29|17:43:08.996] Allocated trie memory caches             clean=166.00MiB dirty=166.00MiB
+INFO [06-29|17:43:08.997] Allocated cache and file handles         database=/share/geth/private_net/geth/chaindata cache=333.00MiB handles=524288
+INFO [06-29|17:43:09.090] Opened ancient database                  database=/share/geth/private_net/geth/chaindata/ancient
+INFO [06-29|17:43:09.093] Initialised chain configuration          config="{ChainID: 1 Homestead: 1150000 DAO: 1920000 DAOSupport: true EIP150: 2463000 EIP155: 2675000 EIP158: 2675000 Byzantium: 4370000 Constantinople: 7280000  ConstantinopleFix: 7280000 Engine: ethash}"
+INFO [06-29|17:43:09.094] Disk storage enabled for ethash caches   dir=/share/geth/private_net/geth/ethash count=3
+INFO [06-29|17:43:09.094] Disk storage enabled for ethash DAGs     dir=/root/.ethash                       count=2
+INFO [06-29|17:43:09.095] Initialising Ethereum protocol           versions="[63 62]" network=10 dbversion=7
+INFO [06-29|17:43:09.132] Loaded most recent local header          number=0 hash=d4e567…cb8fa3 td=17179869184 age=50y2mo2w
+INFO [06-29|17:43:09.133] Loaded most recent local full block      number=0 hash=d4e567…cb8fa3 td=17179869184 age=50y2mo2w
+INFO [06-29|17:43:09.133] Loaded most recent local fast block      number=0 hash=d4e567…cb8fa3 td=17179869184 age=50y2mo2w
+INFO [06-29|17:43:09.140] Loaded local transaction journal         transactions=0 dropped=0
+INFO [06-29|17:43:09.144] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [06-29|17:43:09.155] Allocated fast sync bloom                size=332.00MiB
+INFO [06-29|17:43:09.223] IPC endpoint opened                      url=/share/geth/private_net/geth.ipc
+INFO [06-29|17:43:09.471] New local node record                    seq=9 id=b9cc38d844f3c898 ip=127.0.0.1 udp=0 tcp=30303
+INFO [06-29|17:43:09.472] Started P2P networking                   self="enode://2c630c6c45fca0662b449cdd731a72259d56596c950434c471d6df49616c00113a3b8afed2fbf5789e4b31dc4a74c4d635630795bbb0cb28d0a0f3a74b9eff45@127.0.0.1:30303?discport=0"
+INFO [06-29|17:43:09.520] HTTP endpoint opened                     url=http://localhost:8545            cors=* vhosts=localhost
+INFO [06-29|17:43:09.979] Initialized fast sync bloom              items=12356 errorrate=0.000 elapsed=822.409ms
+ERROR[06-29|17:43:10.011] Failed to enumerate USB devices          hub=trezor vendor=4617  failcount=3 err="failed to initialize libusb: libusb: unknown error [code -99]"
+ERROR[06-29|17:43:10.012] Failed to enumerate USB devices          hub=ledger vendor=11415 failcount=3 err="failed to initialize libusb: libusb: unknown error [code -99]"
+ERROR[06-29|17:43:10.012] Failed to enumerate USB devices          hub=trezor vendor=21324 failcount=3 err="failed to initialize libusb: libusb: unknown error [code -99]"
+INFO [06-29|17:43:10.638] Unlocked account                         address=0x59281691d27E1d422f73e575E7dBa20c91Ee856b
+INFO [06-29|17:43:10.737] Etherbase automatically configured       address=0x59281691d27E1d422f73e575E7dBa20c91Ee856b
+INFO [06-29|17:47:29.974] HTTP endpoint closed                     url=http://localhost:8545
+INFO [06-29|17:47:29.976] IPC endpoint closed                      url=/share/geth/private_net/geth.ipc
+INFO [06-29|17:47:29.977] Blockchain manager stopped 
+INFO [06-29|17:47:29.977] Stopping Ethereum protocol 
+INFO [06-29|17:47:29.978] Ethereum protocol stopped 
+INFO [06-29|17:47:29.979] Transaction pool stopped 

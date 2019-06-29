@@ -1,0 +1,4 @@
+eth.accounts[0]
+exit()
+geth --networkid "10" --nodiscover --datadir /share/geth/private_net --rpc --rpcaddr "localhost" --rpcport "8545" --rpccorsdomain "*" --rpcapi "ethi,net,web3,personal" --targetgaslimit "20000000" console 2>>/share/geth/private_net/error.loggeth --networkid "10" --nodiscover --datadir /share/geth/private_net --rpc --rpcaddr "localhost" --rpcport "8545" --rpccorsdomain "*" --rpcapi "ethi,net,web3,personal" --targetgaslimit "20000000" console 2>>/share/geth/private_net/error.loggeth --networkid "10" --nodiscover --datadir /share/geth/private_net --rpc --rpcaddr "localhost" --rpcport "8545" --rpccorsdomain "*" --rpcapi "ethi,net,web3,personal" --targetgaslimit "20000000" console 2>>/share/geth/private_net/error.l
+eth.accounts[1]
