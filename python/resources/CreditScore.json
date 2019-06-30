@@ -1,0 +1,76 @@
+{
+    "abi": [{
+            "constant": true,
+            "inputs": [{
+                "name": "_id",
+                "type": "string"
+            }],
+            "name": "getUser",
+            "outputs": [{
+                    "name": "",
+                    "type": "string"
+                },
+                {
+                    "name": "",
+                    "type": "uint256"
+                },
+                {
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [{
+                "name": "",
+                "type": "string"
+            }],
+            "name": "users",
+            "outputs": [{
+                    "name": "name",
+                    "type": "string"
+                },
+                {
+                    "name": "score",
+                    "type": "uint256"
+                },
+                {
+                    "name": "lastUpdate",
+                    "type": "uint256"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [{
+                    "name": "_id",
+                    "type": "string"
+                },
+                {
+                    "name": "_name",
+                    "type": "string"
+                },
+                {
+                    "name": "_score",
+                    "type": "uint256"
+                }
+            ],
+            "name": "createUser",
+            "outputs": [{
+                "name": "",
+                "type": "string"
+            }],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        }
+    ],
+    "contract_address": "0xa1dbd66277d87b45B5448f9aa116406B77F91764"
+}

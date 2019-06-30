@@ -2,22 +2,23 @@ version: '3'
 
 services:
 
-  geth:
-    container_name: geth
-    build: geth
-    entrypoint: sh
-  # share/geth/private_net/password.txt
-    ports:    
-      - 7545:7545
-      - 30303:30303
-    tty: true
+  #geth:
+    #container_name: geth
+    #build: geth
+    #entrypoint: sh
+    #ports:    
+      #- 7545:7545
+      #- 30303:30303
+    #tty: true
     #volumes: 
     #  - geth:/share
+
   ganachecli:
-    image: trufflesuite/ganache-cli:latest
-    command: bash "ganache-cli -h 0.0.0.0"
+    build: ganachecli
     ports:
       - 8545:8545
+    volumes:
+      - ./ganachecli:/var/ganache
 
   truffle:
     container_name: truffle
@@ -30,6 +31,18 @@ services:
     entrypoint: sh
     tty: true
 
-#volumes:
-  #geth:share/geth/private_net/password.txt
-  #truffle:
+  python:
+    container_name: python
+    build: python
+    volumes:
+      - ./python:/app
+    ports:
+      - 5000:5000
+    entrypoint: sh runFlask.sh
+    tty: true
+
+
+    
+  
+
+
